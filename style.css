@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+body{
+    background-color:rgba(194, 193, 195, 0.517) ;
+}
+#img{
+    margin: 0px 0px -5px 295px;
+    position: relative;
+}
+h5{
+    font-family: arial;
+    font-size: 25px;
+    position: absolute;
+    top: 30px;
+    left: 480px;
+    text-shadow: blue 2px 2px 3px;
+}
+.tenlop{
+    font-family: arial;
+    font-size: 15px;
+    top: 70px;
+    left: 480px;
+    color: white;
+}
+.header__menu
+{
+    margin-left: 20%; ;
+    width: 837px;
+    height:72px;
+    background-color:#ed812b;
+}
+.header__menu ul {
+    display:flex;   
+}
+.header__menu ul li {    
+    list-style: none;
+    color:white;
+    text-transform: uppercase;
+    padding: 27px 20px; 
+    font-family: arial;  
+}
+.header__menu ul li:hover{
+    background-color: #FF6600 ;
+}
+.main {
+    margin-left:20%;
+    background-color:rgb(255, 255, 255);
+width:837px;
+}
+.content__left {  
+    font-size: 15px;
+    width:595px;
+}
+.text__title {
+    padding: 20px 10px ;
+    font-family: arial;
+}
+.text {
+    padding: 10px 10px ;
+    font-family: arial;   
+}
+.text__picture{
+    margin-left: 120px;
+}
+.text__a{
+    color: blue;
+    padding-left: 20px;
+    font-family: arial;
+}
+.content__right {
+    margin-left: 50px;
+    font-size: 15px;
+width:190px
+}
+.text1{
+    padding-top:15px ;
+    color: blue;
+    font-family: arial;
+}
+.textvb {
+    padding-top: 20px    
+}
+.textlink {
+    color: red;
+    text-decoration: underline;
+}
+.textlink:hover {
+    text-decoration: none ;
+    font-style: italic;
+}
+.footer {
+    padding: 10px 5px;
+    background-color:#f88204;
+    width:837px;
+    margin-top: 47px;
+    text-align: center;
+    color: white;
+}
